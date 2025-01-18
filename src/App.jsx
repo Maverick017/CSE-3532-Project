@@ -4,6 +4,7 @@ import HeroSection from "./HeroSection";
 import LoginPage from "./LoginPage";
 import Network from "./Network";
 import Mentors from "./Mentors";
+import Footer from "./Footer";
 
 const App = () => (
     <Router>
@@ -18,6 +19,7 @@ const App = () => (
               <HeroSection />
               <Network /> 
               <Mentors />
+              <Footer />
             </>
           }
         />

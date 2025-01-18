@@ -45,38 +45,55 @@
   }
   
   .hero-profile {
-    max-width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 5rem;
-    padding-top: 40px;
+    background: linear-gradient(135deg, #fff9d9, #e9f8ff);
+    border-radius: 20px;
+    margin: 2rem auto;
+    max-width: 400px;
   }
   
   .profile-card {
     text-align: center;
     background-color: #fff;
-    padding: 4rem 4rem;
-    border-radius: 10%;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .profile-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .profile-card img.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: 3px solid #e3e3e3;
   }
   
   .profile-card h3 {
-    font-size: 1.5rem;
-    font-weight: 600;
+    font-size: 1.8rem;
+    font-weight: 700;
     color: #070707;
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.5rem;
   }
   
   .profile-card p {
-    font-size: 1.5rem;
-    color: #777;
-  }
-
-  .profile-card img {
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
+    font-size: 1.2rem;
+    color: #555;
     margin-bottom: 1rem;
   }
+  
+  .profile-card img.company-logo {
+    width: 50px;
+    margin-top: 1rem;
+  }
+  
+  
   

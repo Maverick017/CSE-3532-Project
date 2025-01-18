@@ -1,27 +1,35 @@
 import React from "react";
 import "./HeroSection.css";
 
-const HeroSection = ()=> (
-    <section className="hero">
-      <div className="hero-content">
-        <h1>Get advice from the world’s BEST mentors</h1>
-        <p>
-          Book 1:1 calls with founders and leaders of the world’s best startups
-          and brands.
-        </p>
-        <button className="card-btn">Find a mentor</button>
+const HeroSection = () => (
+  <section className="hero">
+    <div className="hero-content">
+      <h1>Get advice from the world’s BEST mentors</h1>
+      <p>
+        Book 1:1 calls with founders and leaders of the world’s best startups
+        and brands.
+      </p>
+      <button className="card-btn">Find a mentor</button>
+    </div>
+    <div className="hero-profile">
+      <div className="profile-card">
+        <img
+          src="https://miro.medium.com/v2/resize:fit:2400/1*D9vP_lzXZkNdbHbuDK2eyw.jpeg"
+          alt="Profile"
+          className="profile-img"
+        />
+        <h3>Abir Bin Aiyub Khan</h3>
+        <p>Head of Operations</p>
+        <a href="https://liberate-labs.com/">
+        <img
+          src="data:image/jpeg;base64,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"
+          alt="Vidyard Logo"
+          className="company-logo"
+        />
+        </a>
       </div>
-      <div className="hero-profile">
-        <div className="profile-card">
-          <img
-            src="https://miro.medium.com/v2/resize:fit:2400/1*D9vP_lzXZkNdbHbuDK2eyw.jpeg"
-            className="profile-img"
-          />
-          <h3>Abir Bin Aiyub Khan</h3>
-          <p>Mentor</p>
-        </div>
-      </div>
-    </section>
-  );
+    </div>
+  </section>
+);
 
 export default HeroSection;
