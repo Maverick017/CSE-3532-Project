@@ -9,7 +9,7 @@ const HeroSection = () => (
         Book 1:1 calls with founders and leaders of the world’s best startups
         and brands.
       </p>
-      <button className="card-btn">Find a mentor</button>
+      <a href="#1"><button className="card-btn">Find a mentor</button></a>
     </div>
     <div className="hero-profile">
       <div className="profile-card">

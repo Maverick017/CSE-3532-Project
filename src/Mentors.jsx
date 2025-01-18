@@ -30,7 +30,7 @@ const Mentors = () => {
   ];
 
   return (
-    <div className="mentors-container">
+    <div className="mentors-container" id="1">
       {mentors.map((mentor) => (
         <div className="mentor-card" key={mentor.id}>
           <div className="mentor-image">
