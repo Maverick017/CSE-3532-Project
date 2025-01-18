@@ -3,6 +3,7 @@ import Header from "./Header";
 import HeroSection from "./HeroSection";
 import LoginPage from "./LoginPage";
 import Network from "./Network";
+import Mentors from "./Mentors";
 
 const App = () => (
     <Router>
@@ -16,6 +17,7 @@ const App = () => (
             <>
               <HeroSection />
               <Network /> 
+              <Mentors />
             </>
           }
         />

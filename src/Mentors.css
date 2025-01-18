@@ -1,0 +1,71 @@
+.mentors-container {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 2rem auto;
+  }
+  
+  .mentor-card {
+    background-color: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .mentor-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .mentor-info {
+    padding: 1rem;
+  }
+  
+  .mentor-info h3 {
+    font-size: 1.25rem;
+    color: #1f2937;
+    margin-bottom: 0.5rem;
+  }
+  
+  .mentor-name {
+    font-weight: bold;
+    color: #111827;
+    margin: 0.5rem 0;
+  }
+  
+  .mentor-description {
+    color: #6b7280;
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+    white-space: pre-line; 
+  }
+  
+  .company-logo {
+    width: 80px;
+    margin-top: 0.5rem;
+  }
+  
+  .show-more {
+    text-align: center;
+    margin: 2rem 0;
+    width: 100%;
+  }
+  
+  .show-more a {
+    font-weight: bold;
+    color: #2563eb;
+    text-decoration: none;
+  }
+  
+  .show-more a:hover {
+    text-decoration: underline;
+  }
+  

@@ -62,7 +62,6 @@ const Network = () => {
         </ul>
       </div>
 
-      {/* Network visualization */}
       <div className="network">
         <div className="circle large"></div>
         <div className="circle medium"></div>
