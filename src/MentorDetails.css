@@ -1,0 +1,183 @@
+.mentor-details {
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    margin-top: 520px;
+  }
+  
+  .main-content {
+    padding: 20px;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .tabs button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+  }
+  
+  .tabs .active-tab {
+    border-bottom: 2px solid #4caf50;
+  }
+  
+  .overview {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .details-section,
+  .booking-section {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .card-item {
+    margin-bottom: 10px;
+  }
+  
+  .badge {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #6a0dad;
+    color: #fff;
+    border-radius: 12px;
+    font-size: 12px;
+  }
+  
+  .badges .badge {
+    margin-right: 5px;
+  }
+  
+  .experience-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .icon-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #6a0dad;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+  }
+  
+  .booking-section .session {
+    margin-bottom: 15px;
+  }
+  
+  .session .price {
+    color: #e91e63;
+    font-weight: bold;
+  }
+  
+  .book-now-btn {
+    padding: 10px 15px;
+    background-color: #6a0dad;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .book-now-btn:hover {
+    background-color: #6a0dad;
+  }
+  
+  .booking-form {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .input-field {
+    padding: 20px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .input-field:focus {
+    border-color: #6a0dad;
+    outline: none;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+  }
+  
+  .submit-btn {
+    padding: 10px 15px;
+    background-color: #6a0dad;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #6a0dad;
+  }
+  
+  .booking-card {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .booking-card h3 {
+    margin-bottom: 15px;
+  }
+  
+  .booking-card button {
+    padding: 10px 15px;
+    background-color: #6a0dad;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .booking-card button:hover {
+    background-color: #45a049;
+  }
+  
