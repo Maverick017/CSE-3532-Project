@@ -3,12 +3,13 @@
     align-items: center;
     justify-content: space-between;
     padding: 2rem 4rem;
-    margin-left: 2rem;
     background: linear-gradient(135deg, #fef4ef, #fff8e9);
+    margin-top: 100px;
+    margin-left: 50px;
   }
   
   .hero-content {
-    max-width: 50%;
+    max-width: 60%;
   }
   
   .hero-content h1 {
@@ -49,6 +50,7 @@
     justify-content: center;
     align-items: center;
     margin-right: 5rem;
+    padding-top: 40px;
   }
   
   .profile-card {
