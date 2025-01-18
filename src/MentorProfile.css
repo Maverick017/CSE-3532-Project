@@ -1,0 +1,119 @@
+.mentor-profile {
+    position: relative;
+    background-color: #f9fafb;
+    margin-bottom: 18rem;
+  }
+  
+
+  .banner {
+    height: 12rem;
+    background-color: #d1d5db;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .banner-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+
+  .profile-container {
+    position: absolute;
+    top: 6rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+
+  .profile-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+  }
+  
+  .profile-picture {
+    width: 14rem;
+    height: 14rem;
+    border-radius: 50%;
+    border: 4px solid #f3f4f6;
+    overflow: hidden;
+  }
+  
+  .picture {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+
+  .name {
+    margin-top: 1rem;
+    font-size: 1.55rem;
+    font-weight: 600;
+    color: #374151;
+  }
+  
+  .role {
+    color: #111827;
+  }
+  
+  .bold {
+    font-weight: 700;
+  }
+  
+  .location {
+    color: #4c4d4e;
+    margin-top: 0.5rem;
+  }
+  
+  .activity {
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+    color: #67696b;
+    font-size: 0.875rem;
+  }
+  
+
+  .actions {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .message-button {
+    background-color: #6a0dad;
+    color: white;
+    border: none;
+    border-radius: 9999px;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .favorite-button {
+    background-color: #e5e7eb;
+    color: #374151;
+    border: none;
+    border-radius: 9999px;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .message-button:hover {
+    background-color: #540e99;
+  }
+  
+  .favorite-button:hover {
+    background-color: #d1d5db;
+  }
+  

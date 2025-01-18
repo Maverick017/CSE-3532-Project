@@ -1,4 +1,5 @@
-import React from "react";
+import React from "react"
+;import { Link } from "react-router-dom";
 import "./HeroSection.css";
 
 const HeroSection = () => (
@@ -13,12 +14,16 @@ const HeroSection = () => (
     </div>
     <div className="hero-profile">
       <div className="profile-card">
-        <img
-          src="https://miro.medium.com/v2/resize:fit:2400/1*D9vP_lzXZkNdbHbuDK2eyw.jpeg"
-          alt="Profile"
-          className="profile-img"
-        />
+      <Link to="/mentorprofile">
+          <img
+            src="https://miro.medium.com/v2/resize:fit:2400/1*D9vP_lzXZkNdbHbuDK2eyw.jpeg"
+            alt="Profile"
+            className="profile-img"
+          />
+        </Link>
+        <Link to="/mentorprofile">
         <h3>Abir Bin Aiyub Khan</h3>
+        </Link>
         <p>Head of Operations</p>
         <a href="https://liberate-labs.com/">
         <img
