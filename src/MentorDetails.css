@@ -4,6 +4,8 @@
     background-color: #f9f9f9;
     min-height: 100vh;
     margin-top: 520px;
+    padding-left: 70px;
+    padding-right: 70px;
   }
   
   .main-content {
@@ -66,7 +68,7 @@
   .badge {
     display: inline-block;
     padding: 5px 10px;
-    background-color: #6a0dad;
+    background-color: #000000;
     color: #fff;
     border-radius: 12px;
     font-size: 12px;
@@ -86,7 +88,7 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #6a0dad;
+    background-color: #000000;
     color: #fff;
     display: flex;
     align-items: center;
@@ -105,7 +107,7 @@
   
   .book-now-btn {
     padding: 10px 15px;
-    background-color: #6a0dad;
+    background-color: #000000;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -113,7 +115,7 @@
   }
   
   .book-now-btn:hover {
-    background-color: #6a0dad;
+    background-color: #000000;
   }
   
   .booking-form {
@@ -137,14 +139,14 @@
   }
   
   .input-field:focus {
-    border-color: #6a0dad;
+    border-color: #000000;
     outline: none;
     box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
   }
   
   .submit-btn {
     padding: 10px 15px;
-    background-color: #6a0dad;
+    background-color: #000000;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -152,7 +154,7 @@
   }
   
   .submit-btn:hover {
-    background-color: #6a0dad;
+    background-color: #000000;
   }
   
   .booking-card {
@@ -170,7 +172,7 @@
   
   .booking-card button {
     padding: 10px 15px;
-    background-color: #6a0dad;
+    background-color: #000000;
     color: #fff;
     border: none;
     border-radius: 5px;

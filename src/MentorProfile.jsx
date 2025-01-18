@@ -23,8 +23,8 @@ const MentorProfile = () => {
           </div>
           <h2 className="name">Abir Khan</h2>
           <p className="role">
-            <span className="bold">Senior Software Engineer</span> at{' '}
-            <span className="bold">Growth Garage</span>
+            <span className="bold">Head of Operations</span> at{' '}
+            <span className="bold">Liberate Labs</span>
           </p>
           <p className="location">Bangladesh</p>
           <div className="activity">
